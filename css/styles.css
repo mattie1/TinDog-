@@ -226,6 +226,10 @@ body {
 
 @media (max-width: 574px) {
     
+    h1 {
+        text-align: center;
+    }
+    
     #pricing {
         text-align: center;
         padding: 10%
@@ -254,6 +258,10 @@ body {
         position: relative;
         transform: rotate(0);
         
+    }
+    
+    h1 {
+        text-align: center;
     }
     #title {
         text-align: center;
