@@ -1,0 +1,272 @@
+body {
+	background-color: #fff;
+    text-align: center;
+}
+ 
+.white-section {
+    color: white;
+}
+.black-section {
+    color: black;
+}
+
+
+/*TITLE */
+
+#title {
+	background-color: #C6145E;
+	opacity: 95%;
+}
+
+#title a:hover {
+	color: black;
+}
+
+.container-fluid {
+	padding: 0;
+}
+
+.navbar-brand {
+	font-family: sans-serif;
+	font-weight: bold;
+	font-size: 3.1rem;
+	
+}
+
+.nav-item {
+	font-family: serif;
+	font-size: 1.6rem;
+	padding: 0 10px;
+}
+
+.navbar{
+    padding: 3% 10% 5%;
+}
+
+.firstpage {
+    padding: 0 10% 7%;
+    
+}
+
+.Main-text {
+	font-family: sans-serif;
+	font-size: 5rem;
+	font-weight: bold;
+    text-align: left;
+}
+/*BUTTONS*/
+.btns-download {
+   float: left;
+    margin: 2% 3% 0 0;
+    
+    
+}
+/*Picture Dog Mainpage*/
+.dogiphone {
+    position: absolute;
+    z-index: -1;
+    transform: rotate(20deg);
+    right: 15%;
+}
+
+
+/*Features Section*/
+
+
+#features {
+
+	padding: 8% 15%;
+    background-color: white;
+    position: relative;
+    color: black;
+    
+}
+
+.text-features {
+    font-weight: bolder;
+}
+
+}
+.box-content p{
+	color: grey;
+}
+
+.fas{
+	padding-bottom: 25px;
+	color: black;
+}
+
+#features:hover{
+	color: #C6145E;
+}
+
+
+/*Testimonials*/
+
+#testimonials {
+	background-color: #C61421E;
+}
+
+#carouselExampleIndicators {
+	padding: 3% 6%;
+}
+
+.testimonial-text {
+	color: white;
+	font-family: 'Raleway', sans-serif;
+	font-weight: bold;
+	font-size: 4rem;
+}
+
+.woofy-dog {
+	border-radius: 50%;
+}
+
+.testimonial-image {
+	border-radius: 50%;
+}
+
+.em-testimonial{
+	font-weight: bolder;
+}
+
+.logo-images {
+	display: inline-block;
+	margin: 5%  0%;
+}
+
+/*Pricing section*/
+
+#pricing {
+    align-content: center;
+    background-color: #fff;
+}
+.text-pricing {
+    font-family: sans-serif;
+    margin: 3%;
+    padding: 6% 3%;
+    font-weight: bold;
+}
+
+.text-pricing h2 {
+    font-size: 4rem;
+    font-weight: bolder;
+}
+
+.text-pricing p{
+    padding-top: 2%;
+    color: grey;
+    font-size: 1.5rem
+}
+
+
+.card-body {
+    font-size: 1.3rem;
+    padding: 7%;
+    
+}
+
+.card-body h3 {
+    font-weight: bolder;
+    padding-bottom: %;
+}
+
+.card-body button {
+    width: 100%;
+    padding: 2%;
+    font-size: 1.9rem
+}
+
+.card-deck {
+    padding-bottom: 2%;
+}
+
+/*Card/Text HOVER */
+.card-img-top:hover {
+    transform: scale(1.03)
+}
+.card-body:hover {
+    transform: scale(1.02)
+}
+
+/*BANNER ABOVE FOOTEr*/
+
+#banner-prom {
+    background-color: #C6145E;
+    padding: 5% 17%;
+}
+
+#banner-prom h3 {
+    font-size: 5rem;
+    font-family: sans-serif;
+    font-weight: bolder;
+    
+}
+#banner-prom button {
+    margin: 3%;
+}
+
+/*FOOTER*/
+
+.page-footer {
+    background-color: rgb(50, 50, 50);
+}
+       
+       
+#footer {
+    background-color: #dcdcdc;
+    padding: 0.5%
+}
+.footer-container .fab {
+    padding: 1% 0.7%;
+}
+         
+    
+/* MEDIA */
+
+@media (max-width: 574px) {
+    
+    #pricing {
+        text-align: center;
+        padding: 10%
+    }
+    
+    #banner-prom {
+        padding: 10%;
+    }
+    #banner-prom h3 {
+       font-size: 3rem; 
+    }
+    
+    
+    #pricing {
+        margin: 0%;
+        padding: 0%;
+    }
+        
+    #pricing .card-deck {
+        padding: 2% 20% 2%;
+    }
+}
+
+@media (max-width: 1180px) {
+    .dogiphone {
+        position: relative;
+        transform: rotate(0);
+        
+    }
+    #title {
+        text-align: center;
+        image-orientation: center;
+    }
+    
+    .dogiphone {
+        padding: 5% 15% 0%;
+
+    }
+    
+    .white-section {
+        
+    }
+    
+}
